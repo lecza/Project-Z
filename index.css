@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    text-align: right;
+}
+
+h1{font-size: 3.2em;
+text-align: center;
+}
+
+h2{font-size: 1em;
+text-align: justify;
+}
+
+button{font-size: 1.5em;}
+
+h3{font-size: 2em;
+text-align: center;
+}
+
+h4{font-size: 2em;}
+p{font-size: 1.2em;}
+a{ font-size: none;}
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+ 
+  h5{font-size: 2em;}
+
+
+    
+  address {
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+address a {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+
+a.btn-primary {
+    background: #F0f0f0;
+    border: 1px solid gray;
+    padding: .3rem .6rem;
+    border-radius: .2rem;
+    color: black;
+    font-family: Arial;
+    font-size: 24px;
+}
+.banner-programando{
+    max-width: 100%;
+    width: 100%;
+}
+.cartas {
+    display: flex;
+    gap: 1.2rem;
+}
+.carta {
+    flex-basis: 16%;
+    margin: 0 auto;
+}
+.carta h4 {
+    font-size: 1.27rem;
+}
+
+img.image-zarate {
+    float: left;
+    margin-right: 1rem;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+footer{ 
+    font: 0.7em sans-serif;
+    text-align: center;
+}
+
